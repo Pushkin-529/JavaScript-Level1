@@ -1,5 +1,37 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #08a;
+    margin: auto;
+    background-color:aqua;
+    width: 1024px;
+    height: 768px;
+    display:flex;
+    flex-direction: row;
+ }
+
+
+.desc {
+    background-color: brown;
+    color: white;
+    width: 1%;
+    height:1%;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1px;
+    align-items: center;
+    text-justify: distribute;
+    border-width: 1px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition:transform 1s ease,border-radius 1s ease,width 1s ease,height 1s ease,font-size 1s ease, border-width 1s ease ;
+}
+
+.desc:hover {
+    transform: rotate(360deg);
+    border-radius:50%;
+    width: 50%;
+    height:40%;
+    font-size: xx-large;
+    border-width:3px;
+    text-shadow:-1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
 }
