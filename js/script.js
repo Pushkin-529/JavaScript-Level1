@@ -1,10 +1,12 @@
 var num=0;
 console.log("---------------------------------------Задание №1-------------------------------------------");
 num=Number(prompt("Задание №1\r\nПоиск простых чисел\r\nВведите число от 0 до 100:\r\n"));
-for(i=0;i<=num;i++)
-{
+let i = 0;
+do{
     if (checkSimple(i)) console.log(i);
+    i++;
 }
+while(i<=num);
 
 function checkSimple(num)
 {
